@@ -8,9 +8,9 @@ fortune -s >/dev/null 2>&1 || {
   exit 1
 }
 
-echo '"spinnerSayings": {'
+echo '"spinnerVerbs": {'
 echo '  "mode": "replace",'
-echo '  "sayings": ['
+echo '  "verbs": ['
 
 for i in $(seq 1 "$COUNT"); do
   # Get a short fortune, flatten to one line, strip problematic chars

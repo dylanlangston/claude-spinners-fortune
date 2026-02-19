@@ -18,6 +18,10 @@ See docs for additional details: https://code.claude.com/docs/en/settings
 2. Copy the section you want.
 3. Paste it in your VSCode settings file.
 
+## Generating Spinner Verbs with the Script
+
+If you want to roll your own spinner sayings using fortune, use/modify the shell script: [`create_spinner_verbs.sh`](./create_spinner_verbs.sh)
+
 ## License
 
 [UNLICENSE](LICENSE) — modify, use, and share freely.
